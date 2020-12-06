@@ -64,12 +64,12 @@ As you can see in the last example we use Efrei photo. Now we want to use our ow
 
 when you see line 7 of [oledtest.ino](oledtest.ino), you can see the image bytes. To build your own one :
 1. upload you image [here](https://javl.github.io/image2cpp/), 
-2. specify the width and height (less than 128 x 64), 
-3. choose proper threshold (between 0 and 255)
+2. specify the `width` and `height` (less than 128 x 64), 
+3. choose proper `threshold` (between 0 and 255)
 4. select `scale to fit, keeping proportions` option.
 5. click on `generate code`. 
 6. Use the generated content instead of the old one
-7. don't forget to specify the width and height  used in the second item here: `display.draw_bitmap_P(0,0, width,height,bitmap);`
+7. don't forget to specify the `width` and `height`  used in the second item here: `display.draw_bitmap_P(0,0, width,height,bitmap);`
 
 |Ex.3| Display your team name on the Oled. Search for a logo or build you own logo and display it in the screen. It is better to use *single color logo* (search it). 
 ---|---
