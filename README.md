@@ -71,6 +71,6 @@ when you see line 7 of [oledtest.ino](oledtest.ino), you can see the image bytes
 6. Use the generated content instead of the old one
 7. don't forget to specify the `width` and `height`  used in the second item here: `display.draw_bitmap_P(0,0, width,height,bitmap);`
 
-|Ex.3| Display your team name on the Oled. Add a random logo (Search for a `single color logo` or build you own logo and display it in the screen.)
+|Ex.3| Display your team name on the Oled with big font and add a random logo (Search for a `single color logo` or build you own logo and display it in the screen.)
 ---|---
 
