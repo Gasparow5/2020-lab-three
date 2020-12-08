@@ -16,6 +16,9 @@ Connect the Oled Display using our last schematic: (please connect only Arduino 
 
 Is it okay? Let's go...
 
+# Fix for Arduino Uno
+please follow [here](https://playground.arduino.cc/Main/Printf/)
+
 # STEP 3: Print on screen
 You can easily print text on the screen in TTY mode by following codes.
 
